@@ -1,0 +1,69 @@
+>>> #Testing primary_school_quiz
+>>> primary_school_quiz(0,2)
+Question 1:
+What is the result of 8-8? 0
+Question 2:
+What is the result of 0-4? -4
+2
+>>> 
+>>> 
+>>> primary_school_quiz(1,3)
+Question 1:
+What is the result of 3^0? 1
+Question 2:
+What is the result of 8^6? 262144
+Question 3:
+What is the result of 5^0? 999
+2
+>>> 
+>>> primary_school_quiz(1,3)
+Question 1:
+What is the result of 4^4? 256
+Question 2:
+What is the result of 0^9? 0
+Question 3:
+What is the result of 1^4? 1
+3
+>>> 
+>>> 
+>>> #Testing high_school_eqsolver
+>>> 
+>>> high_school_eqsolver(1,3,1)
+The quadratic equation 1*x^2 + 3*x + 1 = 0
+has the following real roots: 
+-0.3819660112501051 and -2.618033988749895
+>>> 
+>>> 
+>>> high_school_eqsolver(3,2,15)
+The quadratic equation 3*x^2 + 2*x + 15 = 0
+has the following two complex roots: 
+-0.3333333333333333 + 2.2110831935702664 i 
+and 
+-0.3333333333333333 - 2.2110831935702664 i
+>>> 
+>>> 
+>>> high_school_eqsolver(3,2,-15)
+The quadratic equation 3*x^2 + 2*x + -15 = 0
+has the following real roots: 
+1.9274433277084226 and -2.5941099943750894
+>>> 
+>>> 
+>>> high_school_eqsolver(1,2,1)
+The quadratic equation 1*x^2 + 2*x + 1 = 0
+has only one solution, a real root: 
+-1.0
+>>> 
+>>> 
+>>> high_school_eqsolver(0,2,4)
+The linear equation 2*x + 4 = 0
+has the solution: -2.0
+>>> 
+>>> 
+>>> high_school_eqsolver(0,0,0)
+The quadratic equation 0*x^2 + 0*x + 0 = 0
+is satisifed for all numbers x
+>>> 
+>>> 
+>>> high_school_eqsolver(0,0,10)
+The linear equation 0*x + 10 = 0
+is satisfied for no number x

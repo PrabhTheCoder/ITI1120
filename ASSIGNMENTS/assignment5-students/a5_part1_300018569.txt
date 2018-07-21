@@ -1,0 +1,4 @@
+1) O(nlogn)
+2) O(nlogn)
+3) O(nlogn)
+4) O(n^2)
